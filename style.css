@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 
-/* Container for the entire resume content */
+/* Resume container */
 .resume-container {
     max-width: 900px;
     margin: 20px auto;
@@ -18,9 +18,10 @@ body {
     overflow: hidden;
 }
 
-/* Header Section */
+/* Header */
 .header {
     text-align: center;
+    color: white;
     background-color: #ffccda; /* Soft pink header */
     padding: 20px;
     border-radius: 8px;
