@@ -21,7 +21,6 @@ body {
 /* Header */
 .header {
     text-align: center;
-    color: white;
     background-color: #ffccda; /* Soft pink header */
     padding: 20px;
     border-radius: 8px;
@@ -30,13 +29,13 @@ body {
 .header h1 {
     margin: 0;
     font-size: 2rem;
-    color: #222;
+    color: white;
 }
 
 .header p {
     margin-top: 5px;
     font-size: 1rem;
-    color: #444;
+    color: #fffff0;
 }
 
 /* About Section */
