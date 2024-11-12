@@ -58,12 +58,12 @@ body {
 }
 
 .about .profile-pic {
-    width: 150px; /* Adjust for the desired size */
-    height: 150px; /* Make it square */
+    width: 300px; /* Adjust for the desired size */
+    height: 300px; /* Make it square */
     object-fit: cover; /* Ensures the image maintains aspect ratio while filling the space */
-    border-radius: 0; /* Removes any rounding */
+    border-radius: 1; /* Removes any rounding */
     margin-right: 20px; /* Adds space between the image and text */
-    border: 4px solid #ffccda; /* Optional border */
+    border: 4px solid #6a8895; /* Optional border */
 }
 
 .about p {
