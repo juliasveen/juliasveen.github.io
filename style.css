@@ -1,10 +1,10 @@
 /* General Styles */
 
 @font-face {
-    font-family: 'YourFontName'; /* Choose a name for your font */
-    src: url('fonts/your-font-file.ttf') format('truetype'); /* Update the path and format accordingly */
-    font-weight: normal; /* Adjust as needed (e.g., bold) */
-    font-style: normal; /* Adjust as needed (e.g., italic) */
+    font-family: 'KitchenWhisker'; /* You can name it anything */
+    src: url('Kitchen Whisker.otf') format('opentype'); /* Make sure the path is correct */
+    font-weight: normal; /* Adjust weight as needed */
+    font-style: normal; /* Adjust style as needed */
 }
 
 body {
@@ -39,6 +39,7 @@ body {
 }
 
 .header h1 {
+    font-family: 'KitchenWhisker';
     margin: 0;
     font-size: 2rem;
     color: white;
