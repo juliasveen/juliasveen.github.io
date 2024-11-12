@@ -1,4 +1,12 @@
 /* General Styles */
+
+@font-face {
+    font-family: 'YourFontName'; /* Choose a name for your font */
+    src: url('fonts/your-font-file.ttf') format('truetype'); /* Update the path and format accordingly */
+    font-weight: normal; /* Adjust as needed (e.g., bold) */
+    font-style: normal; /* Adjust as needed (e.g., italic) */
+}
+
 body {
     font-family: 'Montserrat';
     /*background-color: #ffeff2; /* Light pink background similar to the image */*/
