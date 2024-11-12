@@ -1,8 +1,8 @@
 /* General Styles */
 
 @font-face {
-    font-family: 'KitchenWhisker'; /* You can name it anything */
-    src: url('Kitchen Whisker.otf') format('opentype'); /* Make sure the path is correct */
+    font-family: 'Pt Sans Bold'; /* You can name it anything */
+    src: url('pt-sans.bold.ttf') format('opentype'); /* Make sure the path is correct */
     font-weight: normal; /* Adjust weight as needed */
     font-style: normal; /* Adjust style as needed */
 }
@@ -39,7 +39,7 @@ body {
 }
 
 .header h1 {
-    font-family: 'KitchenWhisker';
+    font-family: 'Pt Sans Bold';
     margin: 0;
     font-size: 64px;
     color: white;
