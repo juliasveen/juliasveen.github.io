@@ -134,18 +134,6 @@ section h2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Personal Skills Badges */
-.badge {
-    display: inline-block;
-    padding: 8px 12px;
-    background-color: #ffb6c1; /* Example color */
-    border-radius: 20px;
-    color: #fff;
-    font-size: 0.9rem;
-    margin: 5px;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
     .flex-container {
