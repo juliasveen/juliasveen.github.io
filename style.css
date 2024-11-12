@@ -54,12 +54,12 @@ body {
 /* About Section */
 .about {
     display: flex; /* Aligns elements in a row */
-    align-items: center; /* Centers text vertically with the image */
+    /* align-items: center; /* Centers text vertically with the image */ */
 }
 
 .about .profile-pic {
-    width: 300px; /* Adjust for the desired size */
-    height: 300px; /* Make it square */
+    width: 500px; /* Adjust for the desired size */
+    height: 500px; /* Make it square */
     object-fit: cover; /* Ensures the image maintains aspect ratio while filling the space */
     border-radius: 1; /* Removes any rounding */
     margin-right: 20px; /* Adds space between the image and text */
