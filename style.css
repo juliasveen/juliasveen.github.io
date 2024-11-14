@@ -43,6 +43,36 @@ body {
     color: white;
 }
 
+.header-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.header-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.header-section p,
+.header-section ul,
+.header-section a {
+    margin: 5px 0;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.header-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header-section a:hover {
+    color: #3498db;
+}
+
+
 /* About Section */
 .about {
     display: flex;
