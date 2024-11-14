@@ -60,7 +60,8 @@ body {
 
 .header-section ul {
     list-style-type: none;
-    padding: 0px;
+    padding: 20px;
+    font-size: 2rem;
 }
 
 .header-section a:hover {
