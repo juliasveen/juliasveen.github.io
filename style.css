@@ -32,8 +32,8 @@ body {
 .header {
     text-align: center;
     background-color: #ffccda;
-    padding: 15px;
-    border-radius: 8px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .header h1 {
@@ -63,7 +63,7 @@ body {
 .header-section ul {
     list-style-type: none;
     padding: 20px;
-    margin: 20px 0;
+    margin: 10px 0 5px 0; /* Reduced margin to bring it closer to the header */
     font-size: 1.2rem; /* Reduce font size from 1.5rem */
 }
 
