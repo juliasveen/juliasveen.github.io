@@ -52,16 +52,16 @@ body {
 .header-section p,
 .header-section ul,
 .header-section a {
-    margin: 20px 0;
+    margin: 20px 20;
     color: #ffffff;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .header-section ul {
     list-style-type: none;
-    padding: 20px;
-    font-size: 2rem;
+    /* padding: 20px; */
+    /* font-size: 2rem; */
 }
 
 .header-section a:hover {
