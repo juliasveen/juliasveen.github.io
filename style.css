@@ -59,13 +59,13 @@ body {
 .header-section ul,
 .header-section a {
     margin: 5px 0;
-    color: #ecf0f1;
+    color: #ffffff;
     text-decoration: none;
 }
 
 .header-section ul {
     list-style-type: none;
-    padding: 0;
+    padding: 20px;
 }
 
 .header-section a:hover {
