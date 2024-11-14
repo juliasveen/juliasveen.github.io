@@ -49,23 +49,18 @@ body {
     min-width: 200px;
 }
 
-.header-section h4 {
-    margin-bottom: 10px;
-    font-size: 18px;
-    text-transform: uppercase;
-}
-
 .header-section p,
 .header-section ul,
 .header-section a {
-    margin: 5px 0;
+    margin: 20px 0;
     color: #ffffff;
     text-decoration: none;
+    font-size: 2rem;
 }
 
 .header-section ul {
     list-style-type: none;
-    padding: 20px;
+    padding: 0px;
 }
 
 .header-section a:hover {
