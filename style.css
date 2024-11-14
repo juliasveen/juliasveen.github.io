@@ -49,6 +49,7 @@ body {
     min-width: 200px;
 }
 
+/*
 .header-section p,
 .header-section ul,
 .header-section a {
@@ -56,12 +57,19 @@ body {
     color: #ffffff;
     text-decoration: none;
 }
+*/
 
+/* Navigation Adjustments */
 .header-section ul {
     list-style-type: none;
-    padding: 20px; 
-    margin: 20px 20;
-    font-size: 1.5rem;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 1.2rem; /* Reduce font size from 1.5rem */
+}
+
+.header-section ul li {
+    display: inline;
+    margin: 0 15px; /* Add margin to increase spacing between words */
 }
 
 .header-section a:hover {
