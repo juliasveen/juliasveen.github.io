@@ -64,14 +64,14 @@ body {
     min-width: 200px;
 }
 
-/*
 .header-section p,
 .header-section ul,
 .header-section a {
-    margin: 20px 0;
+    margin: 50px 0;
     color: #ffffff;
     text-decoration: none;
 }
+
 #scroll-header {
   position: absolute;
   top: 0;
