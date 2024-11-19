@@ -8,6 +8,18 @@
 a {
   text-decoration: none;
 }
+.animated-link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #000;
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.animated-link:hover {
+  transform: translateY(-5px); /* Moves the link up */
+}
+
 
 body {
     font-family: 'Montserrat';
