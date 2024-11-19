@@ -93,7 +93,7 @@ body {
 
 .header-section ul li {
     display: inline;
-    margin: 0 15px; /* Add margin to increase spacing between words */
+    margin: 0 50px; /* Add margin to increase spacing between words */
 }
 
 .header-section a:hover {
