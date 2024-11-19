@@ -62,6 +62,7 @@ body {
 .header-section a {
     color: #ffffff;
     text-decoration: none;
+    word-spacing: 10px; /* Add space between words */
 }
 
 #scroll-header {
@@ -75,7 +76,7 @@ body {
 }
 
 .header-section a:hover {
-    color: #3498db;
+    color: #b9466c;
 }
 
 /* Navigation Adjustments */
