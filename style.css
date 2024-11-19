@@ -5,6 +5,9 @@
     font-weight: normal; /* Adjust weight as needed */
     font-style: normal; /* Adjust style as needed */
 }
+a {
+  text-decoration: none;
+}
 
 body {
     font-family: 'Montserrat';
