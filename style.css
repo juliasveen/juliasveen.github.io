@@ -93,6 +93,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding-top: 80px; /* Adjust this value to match the height of your header */
 }
 
 /* Resume Container */
