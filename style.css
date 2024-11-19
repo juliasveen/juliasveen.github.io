@@ -60,14 +60,14 @@ body {
 
 .header-section {
     flex: 1;
-    margin: 30px;
+    margin: 5px;
     min-width: 200px;
 }
 
 .header-section p,
 .header-section ul,
 .header-section a {
-    margin: 50px 0;
+    margin: 15px 0;
     color: #ffffff;
     text-decoration: none;
 }
