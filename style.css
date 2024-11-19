@@ -89,7 +89,7 @@ body {
 .header-section ul li {
     display: inline;
     margin: 0 30px; /* Reduce or increase this value to control spacing between each menu item */
-    letter-spacing: 0.05em; /* Optional: Adjust letter spacing for readability */
+    word-spacing: 10px; /* Add space between words */
 }
 
 .header h1 {
