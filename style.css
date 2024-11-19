@@ -51,13 +51,6 @@ body {
     border-radius: 5px;
 }
 
-.header h1 {
-    font-family: 'Pt Sans Bold';
-    margin: 0;
-    font-size: 3rem;
-    color: white;
-}
-
 .header-section {
     flex: 1;
     margin: 5px;
@@ -67,7 +60,6 @@ body {
 .header-section p,
 .header-section ul,
 .header-section a {
-    margin: 15px 0;
     color: #ffffff;
     text-decoration: none;
 }
@@ -82,22 +74,29 @@ body {
   z-index: 1000;
 }
 
+.header-section a:hover {
+    color: #3498db;
+}
 
 /* Navigation Adjustments */
 .header-section ul {
     list-style-type: none;
-    padding: 10px 0;
-    margin: 5px 0; /* Reduced margin to bring it closer to the header */
-    font-size: 1.2rem; /* Reduce font size from 1.5rem */
+    padding: 0; /* Remove extra padding to reduce space */
+    margin: 10px 0; /* Adjust the margin to control the space between nav menu and header */
+    font-size: 1.2rem; /* Adjust font size as needed */
 }
 
 .header-section ul li {
     display: inline;
-    margin: 0 50px; /* Add margin to increase spacing between words */
+    margin: 0 30px; /* Reduce or increase this value to control spacing between each menu item */
+    letter-spacing: 0.05em; /* Optional: Adjust letter spacing for readability */
 }
 
-.header-section a:hover {
-    color: #3498db;
+.header h1 {
+    font-family: 'Pt Sans Bold';
+    margin-top: 10px; /* Adjust the margin-top value to control space between the header and navigation */
+    font-size: 3rem;
+    color: white;
 }
 
 
