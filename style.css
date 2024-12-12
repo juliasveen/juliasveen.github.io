@@ -1,7 +1,7 @@
 /* General Styles */
 @font-face {
     font-family: 'Spotify font - gotham'; /* You can name it anything */
-    src: url('fonts/GothamMedium.ttf') format('opentype'); /* Make sure the path is correct */
+    src: url('fonts/GothamMedium.ttf') format('truetype'); /* Make sure the path is correct */
     font-weight: normal; /* Adjust weight as needed */
     font-style: normal; /* Adjust style as needed */
 }
