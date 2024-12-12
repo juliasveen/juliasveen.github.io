@@ -154,6 +154,9 @@ body {
     font-size: 14px;
     color: #333;
 }
+.content.active {
+    display: block;
+}
 
 
 /* Section Layouts */
