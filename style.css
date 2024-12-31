@@ -84,6 +84,50 @@ a {
 
 /* About Section */
 
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap; /* Keep items side-by-side unless overridden */
+    gap: 20px;
+}
+
+.about .profile-pic {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 4px solid #6a8895;
+}
+
+.about p {
+    flex: 1;
+    font-size: 1.1rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;   /* Center both image and text */
+    }
+
+    .about .profile-pic {
+        width: 80%;           /* Make image responsive */
+        max-width: 250px;     /* Ensure image doesn’t grow too large */
+        height: auto;         /* Maintain aspect ratio */
+        margin: 0 auto 15px;  /* Center image and add spacing below */
+    }
+
+    .about p {
+        max-width: 90%;       /* Ensure text takes up most of the width */
+        text-align: center;   /* Center-align text */
+    }
+}
+
 body {
     font-family: 'Spotify font - gotham';
     margin: 0;
@@ -105,26 +149,6 @@ body {
     border-radius: 12px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-}
-
-.about {
-    display: flex;
-    align-items: center;
-}
-
-.about .profile-pic {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-right: 20px;
-    border: 4px solid #6a8895;
-}
-
-.about p {
-    font-size: 1.1rem;
-    color: #555;
-    margin: 10px 0;
 }
 
 /* Collapsible Section Styles */
@@ -305,23 +329,5 @@ section h2 {
     max-width: calc(100% - 320px); /* Adjust width to fit next to the image */
 }
 
-/* Mobile View */
-@media (max-width: 768px) {
-    .about {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .about .profile-pic {
-        width: 80%;
-        max-width: 250px;
-        height: auto;
-        margin: 0 auto 15px; /* Center image and add spacing below */
-    }
-
-    .about p {
-        max-width: 100%;
-        text-align: center; /* Center align text for better appearance */
-    }
-}
 
