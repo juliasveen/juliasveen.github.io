@@ -127,6 +127,21 @@ body {
     margin: 10px 0;
 }
 
+.job-title {
+    font-weight: bold;
+  }
+  .date {
+    float: right;
+  }
+  .organization {
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+  .description {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
 /* Collapsible Section Styles */
 .collapsible-container {
     margin-top: 20px;
