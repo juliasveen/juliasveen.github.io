@@ -6,3 +6,8 @@ document.addEventListener("scroll", function () {
     // Moves header down proportionally to the scroll but limits the offset to 100px
     header.style.top = Math.min(scrollPosition, 100) + "px";
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    $("#myCarousel").carousel();
+});
+
