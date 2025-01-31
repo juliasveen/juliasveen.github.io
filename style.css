@@ -20,6 +20,10 @@ a {
   transform: translateY(-5px); /* Moves the link up */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Header */
 .header {
     position: fixed; /* Change from absolute to fixed */
