@@ -8,6 +8,9 @@ document.addEventListener("scroll", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    $("#myCarousel").carousel();
-});
-
+    var myCarousel = new bootstrap.Carousel(document.getElementById('myCarousel'), {
+      interval: 5000,
+      wrap: true
+    });
+  });
+  
