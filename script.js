@@ -7,10 +7,4 @@ document.addEventListener("scroll", function () {
     header.style.top = Math.min(scrollPosition, 100) + "px";
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-    var myCarousel = new bootstrap.Carousel(document.getElementById('myCarousel'), {
-      interval: 5000,
-      wrap: true
-    });
-  });
-  
+

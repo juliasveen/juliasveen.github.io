@@ -233,38 +233,6 @@ section h2 {
     background-color: #f7e6ec;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-/* Bootstrap carousel styling --thanks Dr. Jowett lol */
-.carousel {
-    width: 80%;
-    margin: auto;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.carousel-item {
-    height: 400px; /* Adjust height as needed */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    background-size: cover;
-    background-position: center;
-}
-
-.carousel-caption {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-}
-
-
 
 
 /* Footer */
