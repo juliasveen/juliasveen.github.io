@@ -234,6 +234,20 @@ section h2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.job-title {
+    font-weight: bold;
+  }
+  .date {
+    float: right;
+  }
+  .organization {
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+  .description {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
 
 /* Footer */
 .footer {
