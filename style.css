@@ -253,6 +253,52 @@ section h2 {
     margin-bottom: 20px;
   }
 
+  /* image carousel start here */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.carousel {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+#prev { left: 10px; }
+#next { right: 10px; }
+
+.nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* image carousel end here */
+
+
 /* Footer */
 .footer {
     background-color: #2c3e50;
