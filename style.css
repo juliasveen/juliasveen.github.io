@@ -253,8 +253,8 @@ section h2 {
     margin-bottom: 20px;
   }
 
-  /* image carousel start here */
-  body {
+/* image carousel start here */
+.carousel-container {
     display: flex;
     justify-content: center;
     align-items: center;
