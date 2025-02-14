@@ -31,4 +31,20 @@ setInterval(() => {
     imgElement.src = images[currentIndex];
 }, 3000);
 
+// JavaScript for portfolio section interactions
+document.addEventListener("DOMContentLoaded", function () {
+    const portfolioItems = document.querySelectorAll(".portfolio-item");
+    
+    portfolioItems.forEach(item => {
+        item.addEventListener("mouseenter", () => {
+            item.classList.add("hovered");
+        });
+
+        item.addEventListener("mouseleave", () => {
+            item.classList.remove("hovered");
+        });
+    });
+});
+
+
 
