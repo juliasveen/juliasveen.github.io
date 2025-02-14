@@ -300,6 +300,7 @@ section h2 {
 /* image carousel end here */
 
 /* Portfolio Grid Styles */
+/*
 .portfolio-grid {
     display: flex;
     gap: 20px;
@@ -342,9 +343,54 @@ section h2 {
 
 .portfolio-item:hover .overlay {
     opacity: 1;
+} 
+*/
+/* Portfolio Grid Styles */
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-start;
 }
 
+.portfolio-item {
+    width: calc(33.333% - 20px);
+    max-width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
+.portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.portfolio-item:hover .overlay {
+    opacity: 1;
+}
 
 /* Footer */
 .footer {
