@@ -387,7 +387,7 @@ section h2 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    align-items: stretch; /* Ensures equal height */
+    align-items: flex-start /* Aligns items at the top */ /*stretch*/; /* Ensures equal height */
 }
 
 .portfolio-item {
