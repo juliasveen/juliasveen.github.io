@@ -7,6 +7,15 @@ document.addEventListener("scroll", function () {
     header.style.top = Math.min(scrollPosition, 100) + "px";
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const menuIcon = document.querySelector(".menu-icon");
+    const navMenu = document.querySelector(".header-section ul");
+
+    menuIcon.addEventListener("click", function () {
+        navMenu.classList.toggle("active");
+    });
+});
+
 // image carousel
 const images = ["image1.jpg", "image2.jpg", "image3.jpg"];
 let currentIndex = 0;

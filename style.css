@@ -85,6 +85,42 @@ html {
     color: white;
 }
 
+/*  */
+.header-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+@media (max-width: 768px) {
+    .header-section ul {
+        display: none; /* Hide regular menu */
+        flex-direction: column;
+        position: absolute;
+        background-color: #ffccda;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        text-align: center;
+    }
+
+    .header-section ul.active {
+        display: flex; /* Show menu when toggled */
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+}
+/* */
+
 
 /* About Section */
 
@@ -102,9 +138,9 @@ body {
 
 /* Resume Container */
 .resume-container {
-    max-width: 900px;
-    margin: 20px auto;
-    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px;
     background-color: #fff;
     border-radius: 12px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -357,7 +393,7 @@ section h2 {
 .portfolio-item {
     width: calc(33.333% - 20px);
     max-width: 250px;
-    height: 250px;
+    height: auto; /* Adjusted to auto to fit the content */
     position: relative;
     overflow: hidden;
     border-radius: 10px;
@@ -366,7 +402,7 @@ section h2 {
 
 .portfolio-item img {
     width: 100%;
-    height: 100%;
+    height: auto; /* Adjusted to auto to maintain aspect ratio */
     object-fit: cover;
     transition: transform 0.3s ease;
 }
@@ -390,6 +426,19 @@ section h2 {
 
 .portfolio-item:hover .overlay {
     opacity: 1;
+}
+
+/* Responsive Design for Portfolio Grid */
+@media (max-width: 768px) {
+    .portfolio-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 600px) {
+    .portfolio-item {
+        width: 100%;
+    }
 }
 
 /* Footer */
