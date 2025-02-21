@@ -385,7 +385,7 @@ section h2 {
 .portfolio-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     gap: 20px;
     align-items: flex-start /* Aligns items at the top */ /*stretch*/; /* Ensures equal height */
 }
