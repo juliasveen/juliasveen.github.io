@@ -402,6 +402,9 @@ section h2 {
     text-align: left
 }
 
+.portfolio-item a {
+    color: black;
+}
 
 .portfolio-item img {
     width: 100%;
@@ -415,16 +418,12 @@ section h2 {
 }
 
 .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    position: relative; /* Change from absolute to relative */
     background: rgba(0, 0, 0, 0.6);
     color: white;
     text-align: center;
     padding: 10px;
-    transition: opacity 0.3s ease;
-    opacity: 0;
+    margin-top: -5px; /* Moves it closer to the image */
 }
 
 .portfolio-item:hover .overlay {
