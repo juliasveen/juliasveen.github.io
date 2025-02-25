@@ -259,6 +259,16 @@ section h2 {
     height: 24px;
 }
 
+.skills2 {
+    display: inline;
+    margin: 0;
+  }
+  
+  .skills2 span {
+    margin-right: 10px; /* Add spacing between skills */
+  }
+  
+
 /* Skills Section Grid */
 .skills-grid {
     display: grid;
