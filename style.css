@@ -283,8 +283,8 @@ section h2 {
 
 .skill-item {
     display: flex;
-    align-items: center;
-    gap: 15px; /* Adds spacing between the title and skills */
+    align-items: left;
+    gap: 5px; /* Adds spacing between the title and skills */
 }
 
 .skill-item h4 {
