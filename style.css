@@ -148,6 +148,7 @@ body {
 }
 
 .about {
+    margin-top: 10px;
     display: flex;
     align-items: center;
 }
