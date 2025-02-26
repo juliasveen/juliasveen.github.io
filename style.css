@@ -259,17 +259,27 @@ section h2 {
     height: 24px;
 }
 
-.skills2 {
+.skills-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    gap: 10px; /* Add spacing between elements */
+}
+
+.skills {
+    margin: 0; /* Remove default margins */
+}
+
+/*
+.skills {
     display: inline;
     margin: 0;
   }
   
-  .skills2 span {
-    margin-right: 10px; /* Add spacing between skills */
+  .skills span {
+    margin-right: 10px; 
   }
   
 
-/* Skills Section Grid */
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
@@ -283,7 +293,7 @@ section h2 {
     background-color: #f7e6ec;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
+*/
 .job-title {
     font-weight: bold;
   }
@@ -546,9 +556,11 @@ section h2 {
         flex: 1 1 100%;
     }
 
+    /* 
     .skills-grid {
         grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
     }
+    */
 
     .footer-container {
         flex-direction: column;
