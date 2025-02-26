@@ -236,7 +236,7 @@ section h2 {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    background-image: url('images/stars.jpg'); /* Replace with actual path */
+    background-image: url('images/stars.jpg') !important; /* Replace with actual path */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
