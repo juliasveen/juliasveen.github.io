@@ -281,7 +281,20 @@ section h2 {
     margin: 5px 0;
 }
 
+.skill-item {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Adds spacing between the title and skills */
+}
+
+.skill-item h4 {
+    min-width: 180px; /* Ensures headings have a fixed width */
+    margin: 0; /* Removes extra margins */
+}
+
+
 .skills {
+    flex: 1;
     margin: 0;
 }
 
