@@ -183,6 +183,28 @@ body {
     margin-bottom: 20px;
   }
 
+  .profile-container {
+    display: flex;
+    flex-direction: column; /* Stack image and icons */
+    align-items: center; /* Center items horizontally */
+    gap: 10px; /* Space between image and icons */
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px; /* Space between each icon */
+}
+
+.social-icons img {
+    width: 30px; /* Adjust icon size */
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Slight zoom effect on hover */
+}
+
 /* Collapsible Section Styles */
 .collapsible-container {
     margin-top: 20px;
@@ -274,7 +296,7 @@ section h2 {
 .skills-list {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    /*gap: 10px;*/
 }
 
 .skills-list h4 {
@@ -284,7 +306,6 @@ section h2 {
 .skill-item {
     display: flex;
     align-items: left;
-    gap: 5px; /* Adds spacing between the title and skills */
 }
 
 .skill-item h4 {
