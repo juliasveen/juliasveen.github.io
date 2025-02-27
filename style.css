@@ -22,6 +22,7 @@ a {
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* Adjust this to match your header height */
 }
 
 /* Header */
@@ -96,7 +97,7 @@ html {
 
 @media (max-width: 768px) {
     .header-section ul {
-        display: none; /* Hide regular menu */
+        display: none; /* Hide by default */
         flex-direction: column;
         position: absolute;
         background-color: #ffccda;
@@ -104,6 +105,7 @@ html {
         top: 60px;
         left: 0;
         text-align: center;
+        z-index: 999; /* Ensure it appears above other content */
     }
 
     .header-section ul.active {
@@ -117,8 +119,10 @@ html {
         position: absolute;
         top: 15px;
         right: 20px;
+        z-index: 1000; /* Ensure it's clickable */
     }
 }
+
 /* */
 
 
