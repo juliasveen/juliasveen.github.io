@@ -55,5 +55,20 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+    const hoverElements = document.querySelectorAll(".hover-effect");
+
+    hoverElements.forEach(element => {
+        element.addEventListener("mouseenter", () => {
+            element.style.transform = "scale(1.1)";
+            element.style.transition = "transform 0.3s ease-in-out";
+        });
+        
+        element.addEventListener("mouseleave", () => {
+            element.style.transform = "scale(1)";
+        });
+    });
+});
+
 
 
