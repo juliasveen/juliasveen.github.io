@@ -59,3 +59,30 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
   });
 });
+
+async function fetchNowPlaying() {
+  try {
+    const response = await fetch('http://localhost:3000/now-playing');
+    const data = await response.json();
+
+    const display = document.getElementById('now-playing-text');
+
+    if (data.is_playing) {
+      const song = data.item.name;
+      const artists = data.item.artists.map(artist => artist.name).join(', ');
+      const link = data.item.external_urls.spotify;
+
+      display.innerHTML = `🎵 <a href="${link}" target="_blank">${song}</a> by ${artists}`;
+    } else {
+      display.textContent = 'Not listening to anything right now.';
+    }
+  } catch (error) {
+    document.getElementById('now-playing-text').textContent = 'Unable to fetch currently playing track.';
+    console.error('Spotify fetch error:', error);
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  fetchNowPlaying();
+  setInterval(fetchNowPlaying, 30000); // refresh every 30 sec
+});
