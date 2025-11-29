@@ -29,6 +29,27 @@ body {
   color: #b9466c;
   transform: scale(1.2);
 }
+
+/* Fix for navbar text not showing on mobile */
+@media (max-width: 991.98px) { /* Adjust the max-width to your breakpoint */
+    .navbar-collapse a {
+        color: #333 !important; /* Forces the text to be white for visibility on the dark background */
+    }
+    
+    /* Ensure the links have a background so they're clickable */
+    .navbar-collapse li {
+        background-color: #343a40; /* Or the same dark color as your navbar */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Optional: A separator line */
+        padding: 8px 0;
+    }
+    
+    /* Ensure the toggle button (hamburger icon) is also visible */
+    .navbar-toggler-icon {
+        color: #ffffff; /* Sets the color of the hamburger lines */
+    }
+}
+
+
 .menu-icon {
   display: none;
   cursor: pointer;
