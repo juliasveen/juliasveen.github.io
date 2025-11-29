@@ -18,7 +18,7 @@ faders.forEach(fader => {
 });
 
 const typedText = document.getElementById('typed-text');
-const textArray = ['Hi, I’m Julia Sveen!', 'Future Data Analyst', 'Aspiring Web Developer', 'IT Leader'];
+const textArray = ['Future Data Analyst', 'Aspiring Web Developer', 'IT Leader'];
 const typingDelay = 100;
 const erasingDelay = 50;
 const newTextDelay = 1500;
