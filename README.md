@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website! This is a showcase of my projects, skills, and experience in web development, data science, and AI.
 
-**Please note**: this is a work in progress! Currently working on adding more Python and AI projects :,)
+### **Please note**: this is a work in progress! Currently working on adding more Python and AI projects :,) ###
 
 ## 🌟 About
 
